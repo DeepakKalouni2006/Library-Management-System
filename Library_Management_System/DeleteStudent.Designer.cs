@@ -485,7 +485,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Cursor = Cursors.No;
+            label5.Cursor = Cursors.Hand;
             label5.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label5.Location = new Point(88, 17);
             label5.Name = "label5";
@@ -496,7 +496,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Cursor = Cursors.No;
+            label6.Cursor = Cursors.Hand;
             label6.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label6.Location = new Point(141, 95);
             label6.Name = "label6";
@@ -507,7 +507,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Cursor = Cursors.No;
+            label7.Cursor = Cursors.Hand;
             label7.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label7.Location = new Point(79, 169);
             label7.Name = "label7";
@@ -518,7 +518,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Cursor = Cursors.No;
+            label8.Cursor = Cursors.Hand;
             label8.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label8.Location = new Point(69, 255);
             label8.Name = "label8";
@@ -529,7 +529,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Cursor = Cursors.No;
+            label9.Cursor = Cursors.Hand;
             label9.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label9.Location = new Point(131, 346);
             label9.Name = "label9";
@@ -579,7 +579,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Cursor = Cursors.No;
+            label10.Cursor = Cursors.Hand;
             label10.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label10.Location = new Point(244, 17);
             label10.Name = "label10";
@@ -590,7 +590,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Cursor = Cursors.No;
+            label11.Cursor = Cursors.Hand;
             label11.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label11.Location = new Point(244, 95);
             label11.Name = "label11";
@@ -601,7 +601,7 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Cursor = Cursors.No;
+            label12.Cursor = Cursors.Hand;
             label12.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label12.Location = new Point(244, 169);
             label12.Name = "label12";
@@ -612,7 +612,7 @@
             // label13
             // 
             label13.AutoSize = true;
-            label13.Cursor = Cursors.No;
+            label13.Cursor = Cursors.Hand;
             label13.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label13.Location = new Point(244, 255);
             label13.Name = "label13";
@@ -623,7 +623,7 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Cursor = Cursors.No;
+            label14.Cursor = Cursors.Hand;
             label14.Font = new Font("Calibri", 12.2F, FontStyle.Bold);
             label14.Location = new Point(244, 346);
             label14.Name = "label14";
@@ -644,7 +644,7 @@
             panel3.Controls.Add(label12);
             panel3.Controls.Add(label14);
             panel3.Controls.Add(label13);
-            panel3.Location = new Point(562, 270);
+            panel3.Location = new Point(534, 270);
             panel3.Name = "panel3";
             panel3.Size = new Size(537, 380);
             panel3.TabIndex = 11;
@@ -652,11 +652,11 @@
             // cuiSpinner1
             // 
             cuiSpinner1.ArcColor = Color.FromArgb(37, 99, 235);
-            cuiSpinner1.Location = new Point(766, 189);
+            cuiSpinner1.Location = new Point(757, 189);
             cuiSpinner1.Name = "cuiSpinner1";
             cuiSpinner1.RingColor = Color.FromArgb(64, 128, 128, 128);
             cuiSpinner1.RotateSpeed = 2F;
-            cuiSpinner1.Rotation = 66.25331F;
+            cuiSpinner1.Rotation = 189.365067F;
             cuiSpinner1.Size = new Size(75, 75);
             cuiSpinner1.TabIndex = 5;
             cuiSpinner1.Text = "cuiSpinner1";

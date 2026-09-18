@@ -14,7 +14,7 @@ namespace Library_Management_System
 {
     public partial class IssueBook : Form
     {
-        string connectionDb = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=Library_Management;Integrated Security=True;Trust Server Certificate=True";
+        string connectionDb = "Data Source=localhost\\SQLEXPRESS;Initial Catalog=Library_Management;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
         string? username;
         public IssueBook(string? user)
         {
@@ -188,7 +188,7 @@ namespace Library_Management_System
                 SqlCommand cmd1 = new SqlCommand(query1, con);
                 cmd1.Parameters.AddWithValue("@id",cuiTextBox2.Text);
                 con.Open();
-                int quantity = (int)cmd1.ExecuteScalar();
+                int quantity =Convert.ToInt32(cmd1.ExecuteScalar());
                 if (quantity > 1)
                 {
                     string query = @"INSERT INTO IssueBooks (StudentID,BookID,IssueDate)

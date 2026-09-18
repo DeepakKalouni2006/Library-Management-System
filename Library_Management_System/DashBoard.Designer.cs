@@ -509,6 +509,7 @@
             // label4
             // 
             label4.AutoSize = true;
+            label4.Cursor = Cursors.Hand;
             label4.FlatStyle = FlatStyle.Flat;
             label4.Font = new Font("Segoe UI Variable Display", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.Location = new Point(207, 38);
@@ -643,7 +644,7 @@
             cuiSpinner1.Name = "cuiSpinner1";
             cuiSpinner1.RingColor = Color.FromArgb(64, 128, 128, 128);
             cuiSpinner1.RotateSpeed = 2F;
-            cuiSpinner1.Rotation = 202.802F;
+            cuiSpinner1.Rotation = 166.407486F;
             cuiSpinner1.Size = new Size(75, 75);
             cuiSpinner1.TabIndex = 11;
             cuiSpinner1.Text = "cuiSpinner1";
